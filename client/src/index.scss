@@ -1,0 +1,48 @@
+$primaryC: rgb(125,196,113);
+$secondaryC: rgb(62,120,68);
+$backgroundC: rgb(34,33,40);
+$textC:ghostwhite;
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: $backgroundC !important;
+  color: $textC !important;
+  overflow: hidden;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  background-color: $backgroundC;
+  padding-top: 75px;
+  scroll-padding-top: 75px;
+}
+
+#Header{
+  background-color: $secondaryC;
+  color: $textC
+}
+
+#Footer {
+  background-color: $secondaryC;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#Tinder {
+  text-align: center;
+}

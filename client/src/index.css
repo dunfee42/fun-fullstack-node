@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #222128 !important;
+  color: ghostwhite !important;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html {
+  background-color: #222128;
+  padding-top: 75px;
+  scroll-padding-top: 75px;
+}
+
+#Header {
+  background-color: #3e7844;
+  color: ghostwhite;
+}
+
+#Footer {
+  background-color: #3e7844;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#Tinder {
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
